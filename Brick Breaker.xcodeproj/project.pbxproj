@@ -8,13 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		FFBF869B1C86E0AB00284A4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBF869A1C86E0AB00284A4D /* AppDelegate.swift */; };
-		FFBF869D1C86E0AB00284A4D /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FFBF869C1C86E0AB00284A4D /* GameScene.sks */; };
 		FFBF869F1C86E0AB00284A4D /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBF869E1C86E0AB00284A4D /* GameScene.swift */; };
 		FFBF86A11C86E0AB00284A4D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBF86A01C86E0AB00284A4D /* GameViewController.swift */; };
 		FFBF86A41C86E0AB00284A4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFBF86A21C86E0AB00284A4D /* Main.storyboard */; };
-		FFBF86A61C86E0AB00284A4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFBF86A51C86E0AB00284A4D /* Assets.xcassets */; };
 		FFBF86A91C86E0AB00284A4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFBF86A71C86E0AB00284A4D /* LaunchScreen.storyboard */; };
 		FFBF86B41C86E0AB00284A4D /* Brick_BreakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBF86B31C86E0AB00284A4D /* Brick_BreakerTests.swift */; };
+		FFBF86BF1C86E31400284A4D /* images.atlas in Resources */ = {isa = PBXBuildFile; fileRef = FFBF86BE1C86E31400284A4D /* images.atlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,16 +29,15 @@
 /* Begin PBXFileReference section */
 		FFBF86971C86E0AB00284A4D /* Brick Breaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Brick Breaker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFBF869A1C86E0AB00284A4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FFBF869C1C86E0AB00284A4D /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		FFBF869E1C86E0AB00284A4D /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		FFBF86A01C86E0AB00284A4D /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		FFBF86A31C86E0AB00284A4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FFBF86A51C86E0AB00284A4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FFBF86A81C86E0AB00284A4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FFBF86AA1C86E0AB00284A4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FFBF86AF1C86E0AB00284A4D /* Brick BreakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Brick BreakerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFBF86B31C86E0AB00284A4D /* Brick_BreakerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brick_BreakerTests.swift; sourceTree = "<group>"; };
 		FFBF86B51C86E0AC00284A4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFBF86BE1C86E31400284A4D /* images.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = images.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +64,7 @@
 				FFBF86991C86E0AB00284A4D /* Brick Breaker */,
 				FFBF86B21C86E0AB00284A4D /* Brick BreakerTests */,
 				FFBF86981C86E0AB00284A4D /* Products */,
+				FFBF86BE1C86E31400284A4D /* images.atlas */,
 			);
 			sourceTree = "<group>";
 		};
@@ -82,11 +81,9 @@
 			isa = PBXGroup;
 			children = (
 				FFBF869A1C86E0AB00284A4D /* AppDelegate.swift */,
-				FFBF869C1C86E0AB00284A4D /* GameScene.sks */,
 				FFBF869E1C86E0AB00284A4D /* GameScene.swift */,
 				FFBF86A01C86E0AB00284A4D /* GameViewController.swift */,
 				FFBF86A21C86E0AB00284A4D /* Main.storyboard */,
-				FFBF86A51C86E0AB00284A4D /* Assets.xcassets */,
 				FFBF86A71C86E0AB00284A4D /* LaunchScreen.storyboard */,
 				FFBF86AA1C86E0AB00284A4D /* Info.plist */,
 			);
@@ -153,10 +150,12 @@
 					FFBF86961C86E0AB00284A4D = {
 						CreatedOnToolsVersion = 7.2.1;
 						DevelopmentTeam = 665ZXJ94TG;
+						LastSwiftMigration = 0800;
 					};
 					FFBF86AE1C86E0AB00284A4D = {
 						CreatedOnToolsVersion = 7.2.1;
 						DevelopmentTeam = 665ZXJ94TG;
+						LastSwiftMigration = 0800;
 						TestTargetID = FFBF86961C86E0AB00284A4D;
 					};
 				};
@@ -185,9 +184,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFBF869D1C86E0AB00284A4D /* GameScene.sks in Resources */,
 				FFBF86A91C86E0AB00284A4D /* LaunchScreen.storyboard in Resources */,
-				FFBF86A61C86E0AB00284A4D /* Assets.xcassets in Resources */,
+				FFBF86BF1C86E31400284A4D /* images.atlas in Resources */,
 				FFBF86A41C86E0AB00284A4D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,6 +337,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.willfraisl.Brick-Breaker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -350,6 +349,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.willfraisl.Brick-Breaker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -362,6 +362,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.willfraisl.Brick-BreakerTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Brick Breaker.app/Brick Breaker";
 			};
 			name = Debug;
@@ -374,6 +375,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.willfraisl.Brick-BreakerTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Brick Breaker.app/Brick Breaker";
 			};
 			name = Release;
@@ -397,6 +399,7 @@
 				FFBF86BA1C86E0AC00284A4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FFBF86BB1C86E0AC00284A4D /* Build configuration list for PBXNativeTarget "Brick BreakerTests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +408,7 @@
 				FFBF86BD1C86E0AC00284A4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
